@@ -1,5 +1,3 @@
-当然，你可以在文档中添加关于该项目需要在 Linux 下使用的信息。下面是修改后的文档示例：
-
 ```markdown
 # Yolov5 React Pedestrian Flow Monitoring System
 
