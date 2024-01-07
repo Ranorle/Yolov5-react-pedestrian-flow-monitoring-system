@@ -1,0 +1,908 @@
+
+[cmd:]  app 
+ AIP
+npu_get_property status: 0
+npu_get_property status: 0
+FW CAPS [0] = 0x2007
+FW CAPS [1] = 0x80000005
+FW CAPS [2] = 0x0
+FW CAPS [3] = 0x0
+FW CAPS [4] = 0x0
+FW CAPS [5] = 0x0
+FW CAPS [6] = 0x0
+FW CAPS [7] = 0x0
+npu_get_property status: 0
+NPU User Driver: npu_read_info 0
+npu_get_property status: 0
+npu_get_property status: 0
+FW CAPS [0] = 0x2007
+FW CAPS [1] = 0x80000005
+FW CAPS [2] = 0x0
+FW CAPS [3] = 0x0
+FW CAPS [4] = 0x0
+FW CAPS [5] = 0x0
+FW CAPS [6] = 0x0
+FW CAPS [7] = 0x0
+npu_get_property status: 0
+NPU driver built on: Apr 13 2021 09:31:08
+npu_get_property status: 0
+npu_get_property status: 0
+FW CAPS [0] = 0x2007
+FW CAPS [1] = 0x80000005
+FW CAPS [2] = 0x0
+FW CAPS [3] = 0x0
+FW CAPS [4] = 0x0
+FW CAPS [5] = 0x0
+FW CAPS [6] = 0x0
+FW CAPS [7] = 0x0
+npu_get_property status: 0
+compression enabled
+
+item already exists: 1124
+Bad quantization: zero scale!
+Bad quantization: zero scale!
+NET size 17735680 off 0 id=ffffffff
+INTERMEDIATE size 12498944 off 0 id=fffffffe
+ACO buffer size 328018 fd 15 off 0
+* NPU_Stats: npu_compile_get_objs(): 234.32 ms
+DUAL ACO VA = 0fd700000 Network VA = 0xfe400000 Intermediate VA = 0xfd800000 Intermediate 1 VA= 0xfca00000
+
+npu_load_network_v2: perf mode = 6 priority=3f flags = 0x44 num layers = 258
+* NPU_Stats: npu_load_network_v2: NPU + kernel : 14.39 ms
+npu_load_network_v2: network handle = 0x11d01
+* NPU_Stats: npu_load_network(): 255.57 ms
+src/rpcmem_android.c:148::info: calling: AEE_SUCCESS == (nErr = pthread_once(&rpcmem_once_control, (void*)rpcmem_init_once))
+src/rpcmem_android.c:148::info: passed: AEE_SUCCESS == (nErr = pthread_once(&rpcmem_once_control, (void*)rpcmem_init_once))
+src/rpcmem_android.c:219::info: calling: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:219::info: passed: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:240::info: calling: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:240::info: passed: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:473:ION version is newsrc/rpcmem_android.c:378::info: calling: 0 < rpcmem_ionfd
+src/rpcmem_android.c:378::info: passed: 0 < rpcmem_ionfd
+src/rpcmem_android.c:387:alloc data 0x0x7f8a31f2a0, heap mask 0x2000000, flags 0x1src/rpcmem_android.c:394:mmap data 0x0x7f8a31f2a0src/rpcmem_android.c:402::info: calling: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:402::info: passed: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:262:rpcmem register buf: heap mask: 0x2000000
+* NPU_Stats: npu_alloc_buffer_v2(): 0.08 ms sts=0
+* NPU_Stats: npu_alloc_buffer_v2(): 0.05 ms sts=0
+* NPU_Stats: npu_alloc_buffer_v2(): 0.05 ms sts=0
+* NPU_Stats: npu_alloc_buffer_v2(): 0.05 ms sts=0
+* NPU_Stats: npu_alloc_buffer_v2(): 0.03 ms sts=0
+* NPU_Stats: npu_alloc_buffer_v2(): 0.02 ms sts=0
+* NPU_Stats: npu_alloc_buffer_v2(): 0.01 ms sts=0
+src/rpcmem_android.c:219::info: calling: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:219::info: passed: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:240::info: calling: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:240::info: passed: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:473:ION version is newsrc/rpcmem_android.c:378::info: calling: 0 < rpcmem_ionfd
+src/rpcmem_android.c:378::info: passed: 0 < rpcmem_ionfd
+src/rpcmem_android.c:387:alloc data 0x0x7f88d3bec0, heap mask 0x2000000, flags 0x1src/rpcmem_android.c:394:mmap data 0x0x7f88d3bec0src/rpcmem_android.c:402::info: calling: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:402::info: passed: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:262:rpcmem register buf: heap mask: 0x2000000
+src/rpcmem_android.c:303::info: calling: mfree
+src/rpcmem_android.c:303::info: passed: mfree
+src/rpcmem_android.c:219::info: calling: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:219::info: passed: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:240::info: calling: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:240::info: passed: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:473:ION version is newsrc/rpcmem_android.c:378::info: calling: 0 < rpcmem_ionfd
+src/rpcmem_android.c:378::info: passed: 0 < rpcmem_ionfd
+src/rpcmem_android.c:387:alloc data 0x0x7f88d3c400, heap mask 0x2000000, flags 0x1src/rpcmem_android.c:394:mmap data 0x0x7f88d3c400src/rpcmem_android.c:402::info: calling: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:402::info: passed: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:262:rpcmem register buf: heap mask: 0x2000000
+src/rpcmem_android.c:219::info: calling: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:219::info: passed: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:240::info: calling: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:240::info: passed: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:473:ION version is newsrc/rpcmem_android.c:378::info: calling: 0 < rpcmem_ionfd
+src/rpcmem_android.c:378::info: passed: 0 < rpcmem_ionfd
+src/rpcmem_android.c:387:alloc data 0x0x7f883e2460, heap mask 0x2000000, flags 0x1src/rpcmem_android.c:394:mmap data 0x0x7f883e2460src/rpcmem_android.c:402::info: calling: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:402::info: passed: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:262:rpcmem register buf: heap mask: 0x2000000
+src/rpcmem_android.c:219::info: calling: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:219::info: passed: NULL != (m = malloc(sizeof(*m)))
+src/rpcmem_android.c:240::info: calling: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:240::info: passed: !(rpc_flags & RPCMEM_HEAP_UNCACHED)
+src/rpcmem_android.c:473:ION version is newsrc/rpcmem_android.c:378::info: calling: 0 < rpcmem_ionfd
+src/rpcmem_android.c:378::info: passed: 0 < rpcmem_ionfd
+src/rpcmem_android.c:387:alloc data 0x0x7f8a898c90, heap mask 0x2000000, flags 0x1src/rpcmem_android.c:394:mmap data 0x0x7f8a898c90src/rpcmem_android.c:402::info: calling: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:402::info: passed: MAP_FAILED != (m->paddr = (void *)mmap(NULL, alloc.len, PROT_READ|PROT_WRITE, MAP_SHARED, m->data.fd, 0))
+src/rpcmem_android.c:262:rpcmem register buf: heap mask: 0x2000000
+src/rpcmem_android.c:303::info: calling: mfree
+src/rpcmem_android.c:303::info: passed: mfree
+input shape0 1
+input shape1 416
+input shape2 416
+input shape3 3
+output node379
+output node440
+output node501
+version:1.51.0.2663
+GST_RTSPSRC_PATH= rtsp://admin:ZKCD1234@10.0.20.158:554
+
+General configuration for OpenCV 3.2.0 =====================================
+  Version control:               unknown
+
+  Extra modules:
+    Location (extra):            /build/opencv-XDqSFW/opencv-3.2.0+dfsg/contrib/modules
+    Version control (extra):     unknown
+
+  Platform:
+    Timestamp:                   2018-09-20T09:28:13Z
+    Host:                        Linux 4.4.0-135-generic aarch64
+    CMake:                       3.10.2
+    CMake generator:             Unix Makefiles
+    CMake build tool:            /usr/bin/make
+    Configuration:               Release
+
+  C/C++:
+    Built as dynamic libs?:      YES
+    C++ Compiler:                /usr/bin/c++  (ver 7.3.0)
+    C++ flags (Release):         -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C++ flags (Debug):           -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+    C Compiler:                  /usr/bin/cc
+    C flags (Release):           -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C flags (Debug):             -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+    Linker flags (Release):      -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now
+    Linker flags (Debug):        -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now
+    ccache:                      NO
+    Precompiled headers:         NO
+    Extra dependencies:          /usr/lib/aarch64-linux-gnu/libwebp.so gdcmMSFF /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so /usr/lib/libgdal.so gtk-3 gdk-3 pangocairo-1.0 pango-1.0 atk-1.0 cairo-gobject cairo gdk_pixbuf-2.0 gio-2.0 gobject-2.0 glib-2.0 gthread-2.0 dc1394 avcodec avformat avutil swscale avresample gphoto2 gphoto2_port /usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so /usr/lib/aarch64-linux-gnu/libpthread.so /usr/lib/aarch64-linux-gnu/libsz.so /usr/lib/aarch64-linux-gnu/libdl.so /usr/lib/aarch64-linux-gnu/libm.so vtkRenderingOpenGL vtkImagingHybrid vtkIOImage vtkCommonDataModel vtkCommonMath vtkCommonCore vtksys vtkCommonMisc vtkCommonSystem vtkCommonTransforms vtkCommonExecutionModel vtkDICOMParser vtkIOCore /usr/lib/aarch64-linux-gnu/libz.so vtkmetaio /usr/lib/aarch64-linux-gnu/libjpeg.so /usr/lib/aarch64-linux-gnu/libpng.so /usr/lib/aarch64-linux-gnu/libtiff.so vtkImagingCore vtkRenderingCore vtkCommonColor vtkFiltersExtraction vtkFiltersCore vtkFiltersGeneral vtkCommonComputationalGeometry vtkFiltersStatistics vtkImagingFourier vtkalglib vtkFiltersGeometry vtkFiltersSources vtkInteractionStyle vtkRenderingLOD vtkFiltersModeling vtkIOPLY vtkIOGeometry vtkFiltersTexture vtkRenderingFreeType /usr/lib/aarch64-linux-gnu/libfreetype.so vtkftgl vtkIOExport vtkRenderingAnnotation vtkImagingColor vtkRenderingContext2D vtkRenderingGL2PS vtkRenderingContextOpenGL /usr/lib/aarch64-linux-gnu/libgl2ps.so vtkRenderingLabel tesseract lept dl m pthread rt tbb
+    3rdparty dependencies:
+
+  OpenCV modules:
+    To be built:                 core flann hdf imgproc ml photo reg surface_matching video viz freetype fuzzy imgcodecs shape videoio highgui objdetect plot superres ts xobjdetect xphoto bgsegm bioinspired dpm face features2d line_descriptor saliency text calib3d ccalib datasets rgbd stereo stitching videostab ximgproc aruco optflow phase_unwrapping structured_light java python2 python3
+    Disabled:                    world contrib_world
+    Disabled by dependency:      tracking
+    Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev cnn_3dobj cvv dnn matlab sfm
+
+  GUI: 
+    QT:                          NO
+    GTK+ 3.x:                    YES (ver 3.22.30)
+    GThread :                    YES (ver 2.56.2)
+    GtkGlExt:                    NO
+    OpenGL support:              NO
+    VTK support:                 YES (ver 6.3.0)
+
+  Media I/O: 
+    ZLib:                        /usr/lib/aarch64-linux-gnu/libz.so (ver 1.2.11)
+    JPEG:                        /usr/lib/aarch64-linux-gnu/libjpeg.so (ver )
+    WEBP:                        /usr/lib/aarch64-linux-gnu/libwebp.so (ver encoder: 0x020e)
+    PNG:                         /usr/lib/aarch64-linux-gnu/libpng.so (ver 1.6.34)
+    TIFF:                        /usr/lib/aarch64-linux-gnu/libtiff.so (ver 42 - 4.0.9)
+    JPEG 2000:                   NO
+    OpenEXR:                     /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so (ver 2.2.0)
+    GDAL:                        /usr/lib/libgdal.so
+    GDCM:                        YES (ver 2.8.4)
+
+  Video I/O:
+    DC1394 1.x:                  NO
+    DC1394 2.x:                  YES (ver 2.2.5)
+    FFMPEG:                      YES
+      avcodec:                   YES (ver 57.107.100)
+      avformat:                  YES (ver 57.83.100)
+      avutil:                    YES (ver 55.78.100)
+      swscale:                   YES (ver 4.8.100)
+      avresample:                YES (ver 3.7.0)
+    GStreamer:                   NO
+    OpenNI:                      NO
+    OpenNI PrimeSensor Modules:  NO
+    OpenNI2:                     NO
+    PvAPI:                       NO
+    GigEVisionSDK:               NO
+    Aravis SDK:                  NO
+    UniCap:                      NO
+    UniCap ucil:                 NO
+    V4L/V4L2:                    NO/YES
+    XIMEA:                       NO
+    Xine:                        NO
+    gPhoto2:                     YES
+
+  Parallel framework:            TBB (ver 2017.0 interface 9107)
+
+  Other third-party libraries:
+    Use IPP:                     NO
+    Use VA:                      NO
+    Use Intel VA-API/OpenCL:     NO
+    Use Lapack:                  NO
+    Use Eigen:                   YES (ver 3.3.4)
+    Use Cuda:                    NO
+    Use OpenCL:                  YES
+    Use OpenVX:                  NO
+    Use custom HAL:              NO
+
+  OpenCL:                        <Dynamic loading of OpenCL library>
+    Include path:                /usr/include/CL
+    Use AMDFFT:                  NO
+    Use AMDBLAS:                 NO
+
+  Python 2:
+    Interpreter:                 /usr/bin/python2.7 (ver 2.7.15)
+    Libraries:                   /usr/lib/aarch64-linux-gnu/libpython2.7.so (ver 2.7.15rc1)
+    numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.13.3)
+    packages path:               lib/python2.7/dist-packages
+
+  Python 3:
+    Interpreter:                 /usr/bin/python3 (ver 3.6.5)
+    Libraries:                   /usr/lib/aarch64-linux-gnu/libpython3.6m.so (ver 3.6.5)
+    numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.13.3)
+    packages path:               lib/python3.6/dist-packages
+
+  Python (for build):            /usr/bin/python2.7
+
+  Java:
+    ant:                         /usr/bin/ant (ver 1.10.3)
+    JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+    Java wrappers:               YES
+    Java tests:                  NO
+
+  Matlab:                        Matlab not found or implicitly disabled
+
+  Documentation:
+    Doxygen:                     /usr/bin/doxygen (ver 1.8.13)
+
+  Tests and samples:
+    Tests:                       NO
+    Performance tests:           YES
+    C/C++ Examples:              YES
+
+  Install path:                  /usr
+
+  cvconfig.h is in:              /build/opencv-XDqSFW/opencv-3.2.0+dfsg/obj-aarch64-linux-gnu
+-----------------------------------------------------------------
+
+
+[Camera CameraOne]gstreamer decoder pipeline string:rtspsrc location=rtsp://admin:ZKCD1234@10.0.20.158:554 latency=500 tcp-timeout=500 drop-on-latency=true ntp-sync=true ! queue ! rtph264depay ! h264parse ! queue ! qtivdec turbo=yes skip-frames=yes  ! queue ! qtivtransform ! video/x-raw,format=BGR,width=1920,height=1080 ! appsink name=CameraOne sync=false caps=video/x-raw,format=BGR,width=1920,height=1080 
+[Camera CameraOne]gstreamer display pipeline string:appsrc name=CameraOne_app stream-type=0 format=4 max-latency=100000000 min-latency=10000000  caps=video/x-raw,format=BGR,width=1920,height=1080 ! videoconvert ! waylandsink name=CameraOne_wayland sync=false x=0 y=540 width=960 height=540
+
+General configuration for OpenCV 3.2.0 =====================================
+  Version control:               unknown
+
+  Extra modules:
+    Location (extra):            /build/opencv-XDqSFW/opencv-3.2.0+dfsg/contrib/modules
+    Version control (extra):     unknown
+
+  Platform:
+    Timestamp:                   2018-09-20T09:28:13Z
+    Host:                        Linux 4.4.0-135-generic aarch64
+    CMake:                       3.10.2
+    CMake generator:             Unix Makefiles
+    CMake build tool:            /usr/bin/make
+    Configuration:               Release
+
+  C/C++:
+    Built as dynamic libs?:      YES
+    C++ Compiler:                /usr/bin/c++  (ver 7.3.0)
+    C++ flags (Release):         -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C++ flags (Debug):           -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+    C Compiler:                  /usr/bin/cc
+    C flags (Release):           -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C flags (Debug):             -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+    Linker flags (Release):      -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now
+    Linker flags (Debug):        -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now
+    ccache:                      NO
+    Precompiled headers:         NO
+    Extra dependencies:          /usr/lib/aarch64-linux-gnu/libwebp.so gdcmMSFF /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so /usr/lib/libgdal.so gtk-3 gdk-3 pangocairo-1.0 pango-1.0 atk-1.0 cairo-gobject cairo gdk_pixbuf-2.0 gio-2.0 gobject-2.0 glib-2.0 gthread-2.0 dc1394 avcodec avformat avutil swscale avresample gphoto2 gphoto2_port /usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so /usr/lib/aarch64-linux-gnu/libpthread.so /usr/lib/aarch64-linux-gnu/libsz.so /usr/lib/aarch64-linux-gnu/libdl.so /usr/lib/aarch64-linux-gnu/libm.so vtkRenderingOpenGL vtkImagingHybrid vtkIOImage vtkCommonDataModel vtkCommonMath vtkCommonCore vtksys vtkCommonMisc vtkCommonSystem vtkCommonTransforms vtkCommonExecutionModel vtkDICOMParser vtkIOCore /usr/lib/aarch64-linux-gnu/libz.so vtkmetaio /usr/lib/aarch64-linux-gnu/libjpeg.so /usr/lib/aarch64-linux-gnu/libpng.so /usr/lib/aarch64-linux-gnu/libtiff.so vtkImagingCore vtkRenderingCore vtkCommonColor vtkFiltersExtraction vtkFiltersCore vtkFiltersGeneral vtkCommonComputationalGeometry vtkFiltersStatistics vtkImagingFourier vtkalglib vtkFiltersGeometry vtkFiltersSources vtkInteractionStyle vtkRenderingLOD vtkFiltersModeling vtkIOPLY vtkIOGeometry vtkFiltersTexture vtkRenderingFreeType /usr/lib/aarch64-linux-gnu/libfreetype.so vtkftgl vtkIOExport vtkRenderingAnnotation vtkImagingColor vtkRenderingContext2D vtkRenderingGL2PS vtkRenderingContextOpenGL /usr/lib/aarch64-linux-gnu/libgl2ps.so vtkRenderingLabel tesseract lept dl m pthread rt tbb
+    3rdparty dependencies:
+
+  OpenCV modules:
+    To be built:                 core flann hdf imgproc ml photo reg surface_matching video viz freetype fuzzy imgcodecs shape videoio highgui objdetect plot superres ts xobjdetect xphoto bgsegm bioinspired dpm face features2d line_descriptor saliency text calib3d ccalib datasets rgbd stereo stitching videostab ximgproc aruco optflow phase_unwrapping structured_light java python2 python3
+    Disabled:                    world contrib_world
+    Disabled by dependency:      tracking
+    Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev cnn_3dobj cvv dnn matlab sfm
+
+  GUI: 
+    QT:                          NO
+    GTK+ 3.x:                    YES (ver 3.22.30)
+    GThread :                    YES (ver 2.56.2)
+    GtkGlExt:                    NO
+    OpenGL support:              NO
+    VTK support:                 YES (ver 6.3.0)
+
+  Media I/O: 
+    ZLib:                        /usr/lib/aarch64-linux-gnu/libz.so (ver 1.2.11)
+    JPEG:                        /usr/lib/aarch64-linux-gnu/libjpeg.so (ver )
+    WEBP:                        /usr/lib/aarch64-linux-gnu/libwebp.so (ver encoder: 0x020e)
+    PNG:                         /usr/lib/aarch64-linux-gnu/libpng.so (ver 1.6.34)
+    TIFF:                        /usr/lib/aarch64-linux-gnu/libtiff.so (ver 42 - 4.0.9)
+    JPEG 2000:                   NO
+    OpenEXR:                     /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so (ver 2.2.0)
+    GDAL:                        /usr/lib/libgdal.so
+    GDCM:                        YES (ver 2.8.4)
+
+  Video I/O:
+    DC1394 1.x:                  NO
+    DC1394 2.x:                  YES (ver 2.2.5)
+    FFMPEG:                      YES
+      avcodec:                   YES (ver 57.107.100)
+      avformat:                  YES (ver 57.83.100)
+      avutil:                    YES (ver 55.78.100)
+      swscale:                   YES (ver 4.8.100)
+      avresample:                YES (ver 3.7.0)
+    GStreamer:                   NO
+    OpenNI:                      NO
+    OpenNI PrimeSensor Modules:  NO
+    OpenNI2:                     NO
+    PvAPI:                       NO
+    GigEVisionSDK:               NO
+    Aravis SDK:                  NO
+    UniCap:                      NO
+    UniCap ucil:                 NO
+    V4L/V4L2:                    NO/YES
+    XIMEA:                       NO
+    Xine:                        NO
+    gPhoto2:                     YES
+
+  Parallel framework:            TBB (ver 2017.0 interface 9107)
+
+  Other third-party libraries:
+    Use IPP:                     NO
+    Use VA:                      NO
+    Use Intel VA-API/OpenCL:     NO
+    Use Lapack:                  NO
+    Use Eigen:                   YES (ver 3.3.4)
+    Use Cuda:                    NO
+    Use OpenCL:                  YES
+    Use OpenVX:                  NO
+    Use custom HAL:              NO
+
+  OpenCL:                        <Dynamic loading of OpenCL library>
+    Include path:                /usr/include/CL
+    Use AMDFFT:                  NO
+    Use AMDBLAS:                 NO
+
+  Python 2:
+    Interpreter:                 /usr/bin/python2.7 (ver 2.7.15)
+    Libraries:                   /usr/lib/aarch64-linux-gnu/libpython2.7.so (ver 2.7.15rc1)
+    numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.13.3)
+    packages path:               lib/python2.7/dist-packages
+
+  Python 3:
+    Interpreter:                 /usr/bin/python3 (ver 3.6.5)
+    Libraries:                   /usr/lib/aarch64-linux-gnu/libpython3.6m.so (ver 3.6.5)
+    numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.13.3)
+    packages path:               lib/python3.6/dist-packages
+
+  Python (for build):            /usr/bin/python2.7
+
+  Java:
+    ant:                         /usr/bin/ant (ver 1.10.3)
+    JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+    Java wrappers:               YES
+    Java tests:                  NO
+
+  Matlab:                        Matlab not found or implicitly disabled
+
+  Documentation:
+    Doxygen:                     /usr/bin/doxygen (ver 1.8.13)
+
+  Tests and samples:
+    Tests:                       NO
+    Performance tests:           YES
+    C/C++ Examples:              YES
+
+  Install path:                  /usr
+
+  cvconfig.h is in:              /build/opencv-XDqSFW/opencv-3.2.0+dfsg/obj-aarch64-linux-gnu
+-----------------------------------------------------------------
+
+
+[Camera CameraOne]Playing: rtsp://admin:ZKCD1234@10.0.20.158:554
+
+General configuration for OpenCV 3.2.0 =====================================
+  Version control:               unknown
+
+  Extra modules:
+    Location (extra):            /build/opencv-XDqSFW/opencv-3.2.0+dfsg/contrib/modules
+    Version control (extra):     unknown
+
+  Platform:
+    Timestamp:                   2018-09-20T09:28:13Z
+    Host:                        Linux 4.4.0-135-generic aarch64
+    CMake:                       3.10.2
+    CMake generator:             Unix Makefiles
+    CMake build tool:            /usr/bin/make
+    Configuration:               Release
+
+  C/C++:
+    Built as dynamic libs?:      YES
+    C++ Compiler:                /usr/bin/c++  (ver 7.3.0)
+    C++ flags (Release):         -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C++ flags (Debug):           -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+    C Compiler:                  /usr/bin/cc
+    C flags (Release):           -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C flags (Debug):             -g -O2 -fdebug-prefix-map=/build/opencv-XDqSFW/opencv-3.2.0+dfsg=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+    Linker flags (Release):      -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now
+    Linker flags (Debug):        -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now
+    ccache:                      NO
+    Precompiled headers:         NO
+    Extra dependencies:          /usr/lib/aarch64-linux-gnu/libwebp.so gdcmMSFF /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so /usr/lib/libgdal.so gtk-3 gdk-3 pangocairo-1.0 pango-1.0 atk-1.0 cairo-gobject cairo gdk_pixbuf-2.0 gio-2.0 gobject-2.0 glib-2.0 gthread-2.0 dc1394 avcodec avformat avutil swscale avresample gphoto2 gphoto2_port /usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so /usr/lib/aarch64-linux-gnu/libpthread.so /usr/lib/aarch64-linux-gnu/libsz.so /usr/lib/aarch64-linux-gnu/libdl.so /usr/lib/aarch64-linux-gnu/libm.so vtkRenderingOpenGL vtkImagingHybrid vtkIOImage vtkCommonDataModel vtkCommonMath vtkCommonCore vtksys vtkCommonMisc vtkCommonSystem vtkCommonTransforms vtkCommonExecutionModel vtkDICOMParser vtkIOCore /usr/lib/aarch64-linux-gnu/libz.so vtkmetaio /usr/lib/aarch64-linux-gnu/libjpeg.so /usr/lib/aarch64-linux-gnu/libpng.so /usr/lib/aarch64-linux-gnu/libtiff.so vtkImagingCore vtkRenderingCore vtkCommonColor vtkFiltersExtraction vtkFiltersCore vtkFiltersGeneral vtkCommonComputationalGeometry vtkFiltersStatistics vtkImagingFourier vtkalglib vtkFiltersGeometry vtkFiltersSources vtkInteractionStyle vtkRenderingLOD vtkFiltersModeling vtkIOPLY vtkIOGeometry vtkFiltersTexture vtkRenderingFreeType /usr/lib/aarch64-linux-gnu/libfreetype.so vtkftgl vtkIOExport vtkRenderingAnnotation vtkImagingColor vtkRenderingContext2D vtkRenderingGL2PS vtkRenderingContextOpenGL /usr/lib/aarch64-linux-gnu/libgl2ps.so vtkRenderingLabel tesseract lept dl m pthread rt tbb
+    3rdparty dependencies:
+
+  OpenCV modules:
+    To be built:                 core flann hdf imgproc ml photo reg surface_matching video viz freetype fuzzy imgcodecs shape videoio highgui objdetect plot superres ts xobjdetect xphoto bgsegm bioinspired dpm face features2d line_descriptor saliency text calib3d ccalib datasets rgbd stereo stitching videostab ximgproc aruco optflow phase_unwrapping structured_light java python2 python3
+    Disabled:                    world contrib_world
+    Disabled by dependency:      tracking
+    Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev cnn_3dobj cvv dnn matlab sfm
+
+  GUI: 
+    QT:                          NO
+    GTK+ 3.x:                    YES (ver 3.22.30)
+    GThread :                    YES (ver 2.56.2)
+    GtkGlExt:                    NO
+    OpenGL support:              NO
+    VTK support:                 YES (ver 6.3.0)
+
+  Media I/O: 
+    ZLib:                        /usr/lib/aarch64-linux-gnu/libz.so (ver 1.2.11)
+    JPEG:                        /usr/lib/aarch64-linux-gnu/libjpeg.so (ver )
+    WEBP:                        /usr/lib/aarch64-linux-gnu/libwebp.so (ver encoder: 0x020e)
+    PNG:                         /usr/lib/aarch64-linux-gnu/libpng.so (ver 1.6.34)
+    TIFF:                        /usr/lib/aarch64-linux-gnu/libtiff.so (ver 42 - 4.0.9)
+    JPEG 2000:                   NO
+    OpenEXR:                     /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so (ver 2.2.0)
+    GDAL:                        /usr/lib/libgdal.so
+    GDCM:                        YES (ver 2.8.4)
+
+  Video I/O:
+    DC1394 1.x:                  NO
+    DC1394 2.x:                  YES (ver 2.2.5)
+    FFMPEG:                      YES
+      avcodec:                   YES (ver 57.107.100)
+      avformat:                  YES (ver 57.83.100)
+      avutil:                    YES (ver 55.78.100)
+      swscale:                   YES (ver 4.8.100)
+      avresample:                YES (ver 3.7.0)
+    GStreamer:                   NO
+    OpenNI:                      NO
+    OpenNI PrimeSensor Modules:  NO
+    OpenNI2:                     NO
+    PvAPI:                       NO
+    GigEVisionSDK:               NO
+    Aravis SDK:                  NO
+    UniCap:                      NO
+    UniCap ucil:                 NO
+    V4L/V4L2:                    NO/YES
+    XIMEA:                       NO
+    Xine:                        NO
+    gPhoto2:                     YES
+
+  Parallel framework:            TBB (ver 2017.0 interface 9107)
+
+  Other third-party libraries:
+    Use IPP:                     NO
+    Use VA:                      NO
+    Use Intel VA-API/OpenCL:     NO
+    Use Lapack:                  NO
+    Use Eigen:                   YES (ver 3.3.4)
+    Use Cuda:                    NO
+    Use OpenCL:                  YES
+    Use OpenVX:                  NO
+    Use custom HAL:              NO
+
+  OpenCL:                        <Dynamic loading of OpenCL library>
+    Include path:                /usr/include/CL
+    Use AMDFFT:                  NO
+    Use AMDBLAS:                 NO
+
+  Python 2:
+    Interpreter:                 /usr/bin/python2.7 (ver 2.7.15)
+    Libraries:                   /usr/lib/aarch64-linux-gnu/libpython2.7.so (ver 2.7.15rc1)
+    numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.13.3)
+    packages path:               lib/python2.7/dist-packages
+
+  Python 3:
+    Interpreter:                 /usr/bin/python3 (ver 3.6.5)
+    Libraries:                   /usr/lib/aarch64-linux-gnu/libpython3.6m.so (ver 3.6.5)
+    numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.13.3)
+    packages path:               lib/python3.6/dist-packages
+
+  Python (for build):            /usr/bin/python2.7
+
+  Java:
+    ant:                         /usr/bin/ant (ver 1.10.3)
+    JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+    Java wrappers:               YES
+    Java tests:                  NO
+
+  Matlab:                        Matlab not found or implicitly disabled
+
+  Documentation:
+    Doxygen:                     /usr/bin/doxygen (ver 1.8.13)
+
+  Tests and samples:
+    Tests:                       NO
+    Performance tests:           YES
+    C/C++ Examples:              YES
+
+  Install path:                  /usr
+
+  cvconfig.h is in:              /build/opencv-XDqSFW/opencv-3.2.0+dfsg/obj-aarch64-linux-gnu
+-----------------------------------------------------------------
+
+
+[Camera CameraOne]Display: rtsp://admin:ZKCD1234@10.0.20.158:554
+[Camera CameraOne]gstreamer decoder onPreroll
+npu_set_property status: 0
+one frame cost time=70
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=65
+one frame cost time=104
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=109
+one frame cost time=77
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=56
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=79
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=94
+one frame cost time=83
+one frame cost time=81
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=65
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=89
+one frame cost time=64
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=70
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=93
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=97
+one frame cost time=61
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=71
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=73
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=78
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=98
+one frame cost time=162
+one frame cost time=156
+one frame cost time=116
+one frame cost time=111
+one frame cost time=119
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=79
+one frame cost time=199
+one frame cost time=135
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=82
+one frame cost time=95
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=176
+one frame cost time=233
+one frame cost time=157
+one frame cost time=151
+one frame cost time=202
+one frame cost time=161
+one frame cost time=102
+one frame cost time=156
+one frame cost time=83
+one frame cost time=113
+one frame cost time=193
+one frame cost time=167
+one frame cost time=146
+one frame cost time=154
+one frame cost time=135
+one frame cost time=185
+one frame cost time=215
+one frame cost time=138
+one frame cost time=95
+one frame cost time=136
+one frame cost time=101
+one frame cost time=98
+one frame cost time=88
+one frame cost time=130
+one frame cost time=165
+one frame cost time=158
+one frame cost time=62
+one frame cost time=109
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=165
+one frame cost time=92
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=107
+one frame cost time=102
+one frame cost time=106
+one frame cost time=165
+one frame cost time=154
+one frame cost time=150
+one frame cost time=152
+one frame cost time=86
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=89
+one frame cost time=86
+one frame cost time=150
+one frame cost time=72
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=112
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=119
+one frame cost time=204
+one frame cost time=99
+one frame cost time=130
+one frame cost time=190
+one frame cost time=169
+one frame cost time=90
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=134
+one frame cost time=177
+one frame cost time=180
+one frame cost time=170
+one frame cost time=171
+one frame cost time=87
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=197
+one frame cost time=219
+one frame cost time=173
+one frame cost time=167
+one frame cost time=199
+one frame cost time=153
+one frame cost time=164
+one frame cost time=106
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=151
+one frame cost time=121
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=195
+one frame cost time=174
+one frame cost time=152
+one frame cost time=171
+one frame cost time=163
+one frame cost time=150
+one frame cost time=89
+one frame cost time=160
+one frame cost time=92
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=98
+one frame cost time=97
+one frame cost time=66
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=104
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=176
+one frame cost time=170
+one frame cost time=174
+one frame cost time=138
+one frame cost time=123
+one frame cost time=103
+one frame cost time=111
+one frame cost time=117
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=115
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=167
+one frame cost time=88
+one frame cost time=138
+one frame cost time=125
+one frame cost time=90
+npu_set_property status: 0
+one frame cost time=72
+npu_set_property status: 0
+one frame cost time=159
+one frame cost time=188
+one frame cost time=156
+one frame cost time=83
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=167
+one frame cost time=98
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=176
+one frame cost time=221
+one frame cost time=170
+one frame cost time=168
+one frame cost time=176
+one frame cost time=167
+one frame cost time=161
+one frame cost time=108
+one frame cost time=156
+one frame cost time=123
+one frame cost time=130
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=191
+npu_set_property status: 0
+one frame cost time=181
+npu_set_property status: 0
+one frame cost time=131
+one frame cost time=170
+one frame cost time=120
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=157
+one frame cost time=92
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=95
+one frame cost time=139
+one frame cost time=99
+one frame cost time=154
+one frame cost time=111
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=131
+one frame cost time=81
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=138
+one frame cost time=161
+one frame cost time=180
+one frame cost time=78
+one frame cost time=165
+one frame cost time=161
+one frame cost time=149
+one frame cost time=143
+one frame cost time=93
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=150
+one frame cost time=90
+one frame cost time=124
+one frame cost time=146
+one frame cost time=95
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=166
+one frame cost time=170
+one frame cost time=89
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=127
+one frame cost time=128
+one frame cost time=172
+one frame cost time=176
+npu_set_property status: 0
+one frame cost time=123
+npu_set_property status: 0
+one frame cost time=140
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=187
+one frame cost time=127
+one frame cost time=120
+one frame cost time=134
+one frame cost time=185
+one frame cost time=95
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=77
+one frame cost time=147
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=189
+one frame cost time=172
+one frame cost time=171
+npu_set_property status: 0
+one frame cost time=76
+npu_set_property status: 0
+one frame cost time=176
+npu_set_property status: 0
+one frame cost time=156
+npu_set_property status: 0
+one frame cost time=166
+one frame cost time=147
+one frame cost time=97
+one frame cost time=202
+one frame cost time=176
+one frame cost time=165
+one frame cost time=156
+one frame cost time=138
+one frame cost time=107
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=185
+one frame cost time=94
+one frame cost time=92
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=105
+one frame cost time=99
+one frame cost time=133
+one frame cost time=133
+one frame cost time=135
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=93
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=113
+one frame cost time=80
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=118
+one frame cost time=114
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=172
+one frame cost time=90
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=93
+one frame cost time=98
+one frame cost time=115
+one frame cost time=152
+one frame cost time=113
+one frame cost time=163
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=186
+one frame cost time=184
+one frame cost time=169
+one frame cost time=193
+one frame cost time=213
+one frame cost time=86
+one frame cost time=81
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=135
+one frame cost time=170
+one frame cost time=117
+one frame cost time=132
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=77
+one frame cost time=107
+one frame cost time=113
+one frame cost time=122
+one frame cost time=123
+one frame cost time=161
+npu_set_property status: 0
+one frame cost time=123
+npu_set_property status: 0
+one frame cost time=97
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=140
+one frame cost time=182
+one frame cost time=68
+one frame cost time=146
+one frame cost time=109
+one frame cost time=102
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=90
+one frame cost time=91
+one frame cost time=109
+npu_set_property status: 0
+npu_set_property status: 0
+one frame cost time=171
+one frame cost time=159
+one frame cost time=177
+one frame cost time=76
+one frame cost time=83
+one frame cost time=69

@@ -1,0 +1,74 @@
+.MainPage {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .centerdiv {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 1100px;
+      height: 560px;
+      border-radius: 8px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+      gap: 40px;
+  
+      .Controdiv {
+        width: 340px;
+        height: 480px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  
+        .ButtonDiv {
+          height: 100px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 20px;
+          align-items: center;
+        }
+  
+        .Formdiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          align-items: center;
+          width: 100%;
+  
+          .inputdiv {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+  
+            .inputp {
+              width: 120px;
+            }
+          }
+        }
+      }
+  
+      .Videorect {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 640px;
+        height: 480px;
+        background-color: lightgray;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+      }
+    }
+  }
+  

@@ -1,0 +1,7 @@
+/home/tc-eb5/local/1025/Aiobject-yolov5/build/CMakeFiles/install/strip.dir
+/home/tc-eb5/local/1025/Aiobject-yolov5/build/CMakeFiles/edit_cache.dir
+/home/tc-eb5/local/1025/Aiobject-yolov5/build/CMakeFiles/AiObject-Yolov5.dir
+/home/tc-eb5/local/1025/Aiobject-yolov5/build/CMakeFiles/install.dir
+/home/tc-eb5/local/1025/Aiobject-yolov5/build/CMakeFiles/rebuild_cache.dir
+/home/tc-eb5/local/1025/Aiobject-yolov5/build/CMakeFiles/list_install_components.dir
+/home/tc-eb5/local/1025/Aiobject-yolov5/build/CMakeFiles/install/local.dir

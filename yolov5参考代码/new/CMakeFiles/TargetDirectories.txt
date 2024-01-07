@@ -1,0 +1,3 @@
+/home/parallels/Documents/yolov5参考代码/new/CMakeFiles/yolov5.dir
+/home/parallels/Documents/yolov5参考代码/new/CMakeFiles/edit_cache.dir
+/home/parallels/Documents/yolov5参考代码/new/CMakeFiles/rebuild_cache.dir
