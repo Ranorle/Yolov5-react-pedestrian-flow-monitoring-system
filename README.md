@@ -1,4 +1,3 @@
-```markdown
 # Yolov5 React Pedestrian Flow Monitoring System
 
 Yolov5-react-pedestrian-flow-monitoring-system 是基于 C++ Yolov5 检测和 React 前端开发的人流量检测系统。该系统使用了 MIT 开源许可证。
