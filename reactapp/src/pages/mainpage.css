@@ -1,74 +1,98 @@
 .MainPage {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.centerdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 1100px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  gap: 20px;
+}
+
+.Controdiv {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.ButtonDiv {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.Formdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+
+  .inputdiv {
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-  
-    .centerdiv {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-      width: 1100px;
-      height: 560px;
-      border-radius: 8px;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 阴影效果 */
-      gap: 40px;
-  
-      .Controdiv {
-        width: 340px;
-        height: 480px;
-        padding: 20px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 8px;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-  
-        .ButtonDiv {
-          height: 100px;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          gap: 20px;
-          align-items: center;
-        }
-  
-        .Formdiv {
-          display: flex;
-          flex-direction: column;
-          justify-content: left;
-          align-items: center;
-          width: 100%;
-  
-          .inputdiv {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-  
-            .inputp {
-              width: 120px;
-            }
-          }
-        }
-      }
-  
-      .Videorect {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 640px;
-        height: 480px;
-        background-color: lightgray;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-      }
+    gap: 10px;
+
+    .inputp {
+      width: 100%;
+      max-width: 120px;
     }
   }
-  
+}
+
+.Videorect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 640px;
+  height: auto;
+  background-color: lightgray;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* or "contain" based on your preference */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .centerdiv {
+    flex-direction: row;
+  }
+
+  .Controdiv {
+    width: 340px;
+    height: 480px;
+  }
+
+  .Videorect {
+    width: 640px;
+    height: 480px;
+  }
+}
